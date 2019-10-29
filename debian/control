@@ -1,0 +1,18 @@
+Source: lintian-profile-vyatta
+Section: contrib/devel
+Priority: optional
+Maintainer: Vyatta Package Maintainers <support@brocade.com>
+Uploaders: Jan Blunck <jblunck@brocade.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+
+Package: lintian-profile-vyatta
+Architecture: all
+Depends: lintian,
+ ${misc:Depends}
+Description: Vyatta vendor profile for Lintian
+ Lintian dissects Debian packages and reports bugs and policy
+ violations. It contains automated checks for many aspects of Debian
+ policy as well as some checks for common errors.
+ .
+ This vendor profile is used for Vyatta packages.

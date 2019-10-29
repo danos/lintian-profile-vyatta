@@ -1,0 +1,5 @@
+@include-parent
+
+noudeb
+udev-udeb
+libudev1-udeb

@@ -1,0 +1,5 @@
+lintian-profile-vyatta (0.4) unstable; urgency=medium
+
+  * DANOS Import master
+
+ -- Vyatta Package Maintainers <DL-vyatta-help@att.com>  Tue, 29 Oct 2019 11:50:35 +0000

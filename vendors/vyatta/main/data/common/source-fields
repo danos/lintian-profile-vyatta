@@ -1,0 +1,7 @@
+@include-parent
+
+vyatta-git-branch
+vyatta-git-id
+vyatta-git-repo
+vyatta-git-url
+
