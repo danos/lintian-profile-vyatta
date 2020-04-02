@@ -1,3 +1,12 @@
+lintian-profile-vyatta (0.5) unstable; urgency=medium
+
+  [ Nicholas Brown ]
+  * Add the vyatta config-loaded.target to systemd wantedby whitelist
+
+  [ Colin Docherty ]
+
+ -- Colin Docherty <colin.docherty@att.com>  Thu, 02 Apr 2020 13:58:33 -0700
+
 lintian-profile-vyatta (0.4) unstable; urgency=medium
 
   * DANOS Import master
