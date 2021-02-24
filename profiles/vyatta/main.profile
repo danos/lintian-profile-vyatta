@@ -10,17 +10,17 @@ Disable-Tags-From-Check: nmu
 
 # Lower serverity on unused features
 Tags: bad-distribution-in-changes-file
-Severity: normal
+Severity: info
 Overridable: yes
 
 Tags: extended-description-is-empty
-Severity: normal
+Severity: info
 Overridable: yes
 
 Tags: section-area-mismatch
-Severity: normal
+Severity: info
 Overridable: yes
 
 Tags: backports-changes-missing
-Severity: normal
+Severity: info
 Overridable: yes

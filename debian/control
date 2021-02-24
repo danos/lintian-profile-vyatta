@@ -8,7 +8,7 @@ Standards-Version: 3.9.6
 
 Package: lintian-profile-vyatta
 Architecture: all
-Depends: lintian,
+Depends: lintian (>= 2.58.0),
  ${misc:Depends}
 Description: Vyatta vendor profile for Lintian
  Lintian dissects Debian packages and reports bugs and policy
