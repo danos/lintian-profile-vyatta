@@ -1,8 +1,7 @@
 Source: lintian-profile-vyatta
 Section: contrib/devel
 Priority: optional
-Maintainer: Vyatta Package Maintainers <support@brocade.com>
-Uploaders: Jan Blunck <jblunck@brocade.com>
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
 
