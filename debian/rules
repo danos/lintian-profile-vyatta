@@ -1,4 +1,14 @@
 #!/usr/bin/make -f
 
+LINTIAN_VER := $(shell dpkg-query -W -f='$${Version}' lintian)
+LINTIAN_OLD := $(shell dpkg --compare-versions $(LINTIAN_VER) lt 2.58.0 && echo true || echo false)
+
 %:
 	dh $@
+
+
+override_dh_auto_configure:
+	dh_auto_configure
+	if $(LINTIAN_OLD); then \
+		sed -i 's/Severity: info/Severity: normal/g' profiles/vyatta/main.profile; \
+	fi
