@@ -2,7 +2,7 @@ Source: lintian-profile-vyatta
 Section: contrib/devel
 Priority: optional
 Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 9), lintian
 Standards-Version: 3.9.6
 
 Package: lintian-profile-vyatta
